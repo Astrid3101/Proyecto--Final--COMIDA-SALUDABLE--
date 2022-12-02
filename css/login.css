@@ -1,17 +1,26 @@
 *{
     margin: 0;
     padding: 0;
+<<<<<<< Updated upstream
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
 html{
     scroll-behavior: smooth;
+=======
+
+    font-family: sans-serif;
+>>>>>>> Stashed changes
 }
 
 section{
     width: 100%;
+<<<<<<< Updated upstream
     height: auto;
+=======
+    height: 10vh;
+>>>>>>> Stashed changes
 }
 
 section nav{
@@ -19,16 +28,28 @@ section nav{
     justify-content: space-around;
     align-items: center;
     position: fixed;
+<<<<<<< Updated upstream
+=======
+    text-align: right;
+>>>>>>> Stashed changes
     right: 0;
     left: 0;
     background: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 1000;
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
 }
 
 section nav .logo img{
     width: 100px;
+<<<<<<< Updated upstream
     cursor: pointer;
+=======
+    
+>>>>>>> Stashed changes
     margin: 7px 0;
 }
 
@@ -66,6 +87,7 @@ section nav ul li a:hover{
     color:green;
 }
 
+<<<<<<< Updated upstream
 section nav .icon i{
     font-size: 18px;
     color:green;
@@ -569,6 +591,22 @@ section .main_btn:hover i{
 }
 
 .order h1{
+=======
+
+.loggin{
+    
+    width: 100%;
+    height: 100px;
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    
+    
+}
+
+.loggin h1{
+>>>>>>> Stashed changes
     display: flex;
     align-items: center;
     justify-content: center;
@@ -576,38 +614,64 @@ section .main_btn:hover i{
     font-size: 55px;
 }
 
+<<<<<<< Updated upstream
 .order h1 span{
+=======
+.loggin h1 span{
+>>>>>>> Stashed changes
     color: #9BA747;
     margin-right: 15px;
     font-family: mv boli;
 }
 
+<<<<<<< Updated upstream
 .order h1 span::after{
     content: '';
     width: 100%;
     height: 2px;
     background: #9BA747;
     display: block;
+=======
+.loggin h1 span::after{
+    width: 50%;
+    height: 2px;
+    background: #9BA747;
+    display: flex;
+>>>>>>> Stashed changes
     position: relative;
     bottom: 15px;
 }
 
+<<<<<<< Updated upstream
 .order .order_main{
+=======
+.loggin .loggin_principal{
+>>>>>>> Stashed changes
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
+<<<<<<< Updated upstream
 .order .order_main .order_image img{
     width: 600px;
 }
 
 .order .order_main form{
+=======
+.loggin .loggin_principal .loggin_image img{
+    width: 500px;
+    
+}
+
+.loggin .loggin_principal form{
+>>>>>>> Stashed changes
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0 10px;
 }
 
+<<<<<<< Updated upstream
 .order .order_main form .input p{
     line-height: 25px;
 }
@@ -617,6 +681,17 @@ section .main_btn:hover i{
 }
 
 .order .order_main form .input input{
+=======
+.loggin .loggin_principal form .input p{
+    line-height: 25px;
+}
+
+.loggin .loggin_principal form .input{
+    margin: 5px;
+}
+
+.loggin .loggin_principal form .input input{
+>>>>>>> Stashed changes
     width: 300px;
     height: 35px;
     padding: 0 10px;
@@ -626,11 +701,19 @@ section .main_btn:hover i{
     border-radius: 3px;
 }
 
+<<<<<<< Updated upstream
 .order .order_main form .input input:focus{
     border: 2px solid #9BA747;
 }
 
 .order .order_main form .order_btn{
+=======
+.loggin .loggin_principal form .input input:focus{
+    border: 2px solid #9BA747;
+}
+
+.loggin .loggin_principal form .loggin_btn{
+>>>>>>> Stashed changes
     padding: 10px 0;
     background: #9BA747;
     color: white;
@@ -641,6 +724,7 @@ section .main_btn:hover i{
 }
 
 
+<<<<<<< Updated upstream
 
 
 /*Team*/
@@ -927,3 +1011,5 @@ footer .end span{
     background: #9BA747;
     border-radius: 15px;
 }
+=======
+>>>>>>> Stashed changes
